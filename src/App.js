@@ -1,9 +1,9 @@
-const App = () => {
+import Directory from "./components/directory/directory.component";
+
+const App = () => {  
   return (
-    <div>
-      Scaffold Project
-    </div>
+    <Directory />
   );
-}
+};
 
 export default App;
